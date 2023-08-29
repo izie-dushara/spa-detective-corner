@@ -1,0 +1,15 @@
+{
+  "name": "spa-implementation",
+  "version": "1.0.0",
+  "description": "Detective Kumar could feel that he was going insane. However, he still had one ongoing case. You have been hired by the detective to create a static website to leave information regarding the case so that anyone can solve it when the time comes.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
