@@ -1,0 +1,86 @@
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -mos-osx-font-smoothing: grayscale;
+  background-color: papayawhip;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  padding: 1rem 1.5rem;
+  color: #fff;
+}
+
+.header__logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+}
+
+.header__website {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  padding: 1.5rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #808080;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #000;
+}
+
+
+
+#app {
+  flex-grow: 3;
+  background-color: #000;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-decoration: underline;
+  padding: 1rem;
+  
+}
+
+p {
+  color: #fff;
+
+}

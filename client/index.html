@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Single Page App Implementation</title>
-  <link rel="stylesheet" href="./static/css/style.css">
-</head>
-<body>
-  <!-- Navbar -->
-  <nav class="nav">
-    <!-- Link with datasets -->
-    <a href="/" class="nav__link" data-link>Kumar</a>
-    <a href="/suspects" class="nav__link" data-link>Suspects</a>
-    <a href="/victims" class="nav__link" data-link>Victims</a>
-    <a href="/scenes" class="nav__link" data-link>Scenes</a>
-    <a href="/entries" class="nav__link" data-link>Entries</a>
-    <a href="/witnesses" class="nav__link" data-link>Witnesses</a>
-  </nav>
-  <div id="app"></div>
-  <script type="module" src="./static/js/index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kumar: ID Case #6534215</title>
+    <link rel="stylesheet" href="./static/css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="header__logo" data-link>
+        <img
+          src="./static/murder.png"
+          alt="Image"
+        />
+      </a>
+      <div class="header__website">Kumar: ID Case #6534215</div>
+    </header>
+    <!-- Navbar -->
+    <nav class="nav">
+      <!-- Link with datasets -->
+      <a href="/suspects" class="nav__link" data-link>Suspects</a>
+      <a href="/victims" class="nav__link" data-link>Victims</a>
+      <a href="/scenes" class="nav__link" data-link>Scenes</a>
+      <a href="/entries" class="nav__link" data-link>Entries</a>
+      <a href="/witnesses" class="nav__link" data-link>Witnesses</a>
+    </nav>
+    <div id="app"></div>
+    <script type="module" src="./static/js/index.js"></script>
+  </body>
 </html>

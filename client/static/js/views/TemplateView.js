@@ -1,6 +1,7 @@
 export default class {
   // For sub-route
-  constructor() {
+  constructor(params) {
+    this.params = params;
   }
 
   setTitle(title) {

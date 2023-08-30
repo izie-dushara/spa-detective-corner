@@ -22,23 +22,29 @@ End Date:
 
 ### Suspects, Victims, Witnesses, Crime Scenes
 
-![Wireframe #2](readme/001_Outlet.png)
+![Wireframe #2](readme/002_View_v1.png)
 
 ### Diary Entries
 
-![Wireframe #3](readme/001_Outlet.png)
+![Wireframe #3](readme/003_View_v2.png)
 
 ### View Suspects, Victims, Witnesses, Crime Scenes
 
-![Wireframe #4](readme/001_Outlet.png)
+![Wireframe #4](readme/004_View_one_v1.png)
 
 ### View Diary Entries
 
-![Wireframe #5](readme/001_Outlet.png)
+![Wireframe #5](readme/005_View_one_v2.png)
 
 ## Daily Log
 
 ### Day 1 (30/08/2023)
 
+Today I finished up the the routing, the server and connection stuff. Do a bit of CSS stuff too.
 
+I'll continue tomorrow populate it with datas and stuffs
+
+![Day 1](readme/Screenshot%202023-08-30%20at%2015-37-24%20Suspects.png)
+
+### Day 2 (31/08/2023)
 

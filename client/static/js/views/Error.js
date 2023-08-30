@@ -1,8 +1,8 @@
 import TemplateView from "./TemplateView.js";
 
 export default class extends TemplateView {
-  constructor() {
-    super();
+  constructor(params) {
+    super(params);
     this.setTitle("Error");
   }
 

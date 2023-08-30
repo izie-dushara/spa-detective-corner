@@ -5,6 +5,10 @@ import Entries from "../js/views/Entries.js";
 import Victims from "../js/views/Victims.js";
 import Scenes from "../js/views/Scenes.js";
 import Witnesses from "../js/views/Witnesses.js";
+import ViewSuspect from "../js/views/ViewSuspect.js";
+import ViewVictim from "../js/views/ViewVictim.js";
+import ViewScene from "../js/views/ViewScene.js";
+import ViewEntries from "../js/views/ViewEntries.js";
 
 const routes = [
   {
@@ -19,42 +23,42 @@ const routes = [
     path: "/suspects",
     view: Suspects,
   },
-  // {
-  //   path: "/suspects/:id",
-  //   view: ViewSuspect,
-  // },
+  {
+    path: "/suspects/:id",
+    view: ViewSuspect,
+  },
   {
     path: "/victims",
     view: Victims,
   },
-  // {
-  //   path: "/victims/:id",
-  //   view: ViewVictim,
-  // },
+  {
+    path: "/victims/:id",
+    view: ViewVictim,
+  },
   {
     path: "/scenes",
     view: Scenes,
   },
-  // {
-  //   path: "/scenes/:id",
-  //   view: ViewScene,
-  // },
+  {
+    path: "/scenes/:id",
+    view: ViewScene,
+  },
   {
     path: "/entries",
     view: Entries,
   },
-  // {
-  //   path: "/entries/:id",
-  //   view: ViewEntries,
-  // },
+  {
+    path: "/entries/:id",
+    view: ViewEntries,
+  },
   {
     path: "/witnesses",
     view: Witnesses,
   },
-  // {
-  //   path: "/witnesses/:id",
-  //   view: Witnesses,
-  // },
+  {
+    path: "/witnesses/:id",
+    view: Witnesses,
+  },
 ]
 
 export default routes;
